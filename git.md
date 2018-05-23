@@ -18,4 +18,13 @@
         + 查看仓库当前状态
     - git diff [name]
         + 查看差异
-    
+    - git log
+        + 查看提交日志
+    - git reset
+        +  git reset --hard [id] 回退到那个版本
+    - git reflog
+        + 记录你的每一次命令
+    - git checkout 
+        + git checkout -- file 丢弃工作区的修改
+    - git push 
+        + 把本地库所有内容推送到远程库上
