@@ -1,9 +1,9 @@
 ### git 
 1. git 全局配置
- 	> git config --global user.name "Your Name"
+    > git config --global user.name "Your Name"
 
- 	> git config --global user.email "email@example.com" 
- 	
+    > git config --global user.email "email@example.com" 
+    
 2. git init
     > 把当前的目录变成git可以管理的仓库
 
@@ -26,5 +26,10 @@
         + 记录你的每一次命令
     - git checkout 
         + git checkout -- file 丢弃工作区的修改
+        + git checkout -b [分支名] 创建并切换到这个分支上
+    - git branch 
+        + 查看当前分支
     - git push 
         + 把本地库所有内容推送到远程库上
+    - git clone 
+        + 克隆仓库到本地
