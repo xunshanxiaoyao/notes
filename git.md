@@ -29,7 +29,9 @@
         + git checkout -b [分支名] 创建并切换到这个分支上
     - git branch 
         + 查看当前分支
+        + nnn
     - git push 
         + 把本地库所有内容推送到远程库上
     - git clone 
         + 克隆仓库到本地
+    - 制造冲突
