@@ -27,8 +27,13 @@
     - git checkout 
         + git checkout -- file 丢弃工作区的修改
         + git checkout -b [分支名] 创建并切换到这个分支上
+        + git checkout [分支名] 切换到这个分支上
     - git branch 
         + 查看当前分支
+        + git branch [分支名] 创建这条分支
+        + git branch -d [分支名] 删除这条分支
+    - git merge 
+        + 命令用于合并指定分支到当前分支
     - git push 
         + 把本地库所有内容推送到远程库上
     - git clone 
